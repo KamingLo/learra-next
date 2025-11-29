@@ -7,9 +7,6 @@ export default function AboutPage() {
   return (
     <MotionDiv
       className="max-w-4xl mx-auto py-24 px-6 space-y-16"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
     >
       {/* Logo + Intro */}
       <div className="text-center space-y-6">
